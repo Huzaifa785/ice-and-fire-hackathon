@@ -14,7 +14,6 @@ let getBooks = async () => {
                         <p>📝Author/Authors: ${book.authors}</p>
                         <p>🤵 Publisher Name: ${book.publisher}</p>
                         <p>⏰ Released On: ${book.released}</p>
-                        <p>Character Names Will Come Here...</p>
                         
                         `
         document.body.append(booksContainer)
